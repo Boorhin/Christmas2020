@@ -48,7 +48,7 @@ flakes = pv.PolyData(mkflakes(rg)).glyph(geom=S)
 
 plotter = pv.Plotter(off_screen=True, notebook=False)
 plotter.enable_eye_dome_lighting()
-
+plotter.set_background("w")
 
 #plotter = BackgroundPlotter(show = True)
 for i in range(4):
